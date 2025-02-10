@@ -39,3 +39,8 @@ fun WellnessScreen(
         )
     }
 }
+
+@Composable
+fun WellnessScreen(modifier: Modifier = Modifier) {
+    WaterCounter(modifier)
+}
